@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "spotChat",
+    "name": "spotchat",
     "slug": "spotchat-android",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "spotchat",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.spotchat.app"
@@ -33,6 +32,11 @@
           "imageWidth": 76
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "358a777c-fa7d-471f-b5b9-04f62c985c89"
+      }
+    }
   }
 }
