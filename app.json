@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "spotChat",
+    "slug": "spotchat-android",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "spotchat",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spotchat.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B141A",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "package": "com.spotchat.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B141A",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ]
+  }
+}

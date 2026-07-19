@@ -1,0 +1,21 @@
+# Expo / React Native ignored files
+node_modules/
+.expo/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+web-build/
+
+# macOS files
+.DS_Store
+
+# Native directories (ignored for managed workflow builds)
+android/
+ios/
+
+# Built packages
+*.apk
+*.aab
+*.zip
+*.tar.gz
