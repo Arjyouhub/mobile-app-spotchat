@@ -498,5 +498,14 @@ const styles = StyleSheet.create({
     fontSize: 11,
     marginTop: 2,
   },
+  modalOption: {
+    paddingVertical: 10,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+  modalOptionText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
 });
 

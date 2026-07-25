@@ -46,7 +46,7 @@ export const PrivacySettingsScreen = ({ navigation }: any) => {
       { text: 'Cancel', style: 'cancel' },
       {
         text: 'Block',
-        onPress: (username) => {
+        onPress: (username?: string) => {
           if (username && username.trim()) {
             setBlockedUsers((prev) => [...prev, username.trim()]);
             Alert.alert('Blocked', `${username} has been blocked.`);

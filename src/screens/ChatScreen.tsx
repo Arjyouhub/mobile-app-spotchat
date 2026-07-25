@@ -828,7 +828,7 @@ export const ChatScreen = ({ route, navigation }: any) => {
       {wallpaper && !wallpaper.startsWith('#') && (
         <ImageBackground
           source={{ uri: wallpaper }}
-          style={StyleSheet.absoluteFillObject}
+          style={StyleSheet.absoluteFill}
           blurRadius={wallpaperBlur}
         />
       )}
@@ -1412,6 +1412,10 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginTop: 2,
     resizeMode: 'cover',
+  },
+  divider: {
+    height: 1,
+    width: '100%',
   },
 });
 

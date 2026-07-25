@@ -66,7 +66,7 @@ export const VideoCallScreen = () => {
 
 const styles = StyleSheet.create({
   overlay: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     backgroundColor: '#0B141A',
     justifyContent: 'center',
     alignItems: 'center',
